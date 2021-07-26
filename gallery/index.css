@@ -1,0 +1,43 @@
+body{
+  background-color:  black;
+  color:white;
+
+
+
+  margin:30px;
+}
+.container{
+  margin-top: 100px;
+}
+.thumbnails img{
+   width:90%;
+   margin: 5%;
+
+   height:150px;
+   box-sizing: border-box;
+}
+.thumbnails img:hover{
+ border :4px solid blue;
+}
+.preview{
+
+}
+.preview img{
+
+
+  margin-left: 10%;
+
+  width:50%;
+  height:500px;
+
+
+}
+.thumbnails{
+  border: 4px solid white;
+  padding:10px;;
+  float:left;
+  height:450px;
+  width:30%;
+  overflow-y: scroll;
+
+}
