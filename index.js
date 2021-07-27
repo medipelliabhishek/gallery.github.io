@@ -1,2 +1,8 @@
-console.log("hello");
-var color=new array("pink","yellow");
+
+function change(x){
+  var y=x.src;
+  document.getElementById('preview').src=y;
+  document.getElementById('download').href=y;
+
+
+}

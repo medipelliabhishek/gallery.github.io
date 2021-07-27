@@ -17,29 +17,30 @@
 <div class="container" >
 
   <div class="thumbnails hey">
-    <img onmouseover="preview.src=A.src" name="A" src="A.jpeg">
+    <img onmouseover="change(this)" src="A.jpeg">
 
-    <img onmouseover="preview.src=B.src" name="B" src="B.jpeg">
-    <img onmouseover="preview.src=C.src" name="C" src="C.jpeg">
-    <img onmouseover="preview.src=D.src" name="D" src="D.jpeg">
-    <img onmouseover="preview.src=E.src" name="E" src="E.jpeg">
-    <img onmouseover="preview.src=F.src" name="F" src="F.jpeg">
-    <img onmouseover="preview.src=G.src" name="G" src="G.jpeg">
-    <img onmouseover="preview.src=H.src" name="H" src="H.jpeg">
+    <img onmouseover="change(this)" src="B.jpeg">
+    <img onmouseover="change(this)" src="C.jpeg">
+    <img onmouseover="change(this)" src="D.jpeg">
+    <img onmouseover="change(this)" src="E.jpeg">
+    <img onmouseover="change(this)" src="F.jpeg">
+    <img onmouseover="change(this)" src="G.jpeg">
+    <img onmouseover="change(this)" src="H.jpeg">
+
 
 
   </div>
-  <div class="preview hey" align="left">
-     <img name="preview" src="A.jpeg">
+  <div class="preview" align="left">
+     <img   id="preview" src="A.jpeg">
+     <a id="download" href="A.jpeg" download>
+       <button class="button">download</button>
+     </a>
 
   </div>
 
   </div>
 </div>
-<a href="A.jpeg" download>
-  <img src="A.jpeg" alt= width="104" height="142">
-</a>
-
+<script src="index.js"></script>
 
 </body>
 </html>

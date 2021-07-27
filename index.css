@@ -41,3 +41,7 @@ body{
   overflow-y: scroll;
 
 }
+.button{
+  color: white;
+  background-color: black;
+}
