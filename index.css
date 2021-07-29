@@ -1,58 +1,99 @@
 body{
-  background-color:  black;
+  background-color:  grey;
   color:white;
 
 
 
-  margin:30px;
+
+}
+*{
+  box-sizing: border-box;
+}
+
+.nav{
+
+ position: fixed;
+ height: 38px;
+  width:100%;
+  background-color: black;
+  border-bottom:2px solid white;
+  top:0px;
+  left:0px;
+
+
+
+}
+.nav p{
+  float:right;
+  margin-top:8px;
+  height:36px;
+
+  text-align: center;
+  color:white;
+
+  border-collapse: collapse;
+  padding-left: 9px;
+  padding-right: 9px;
+
+}
+.nav img{
+  height:36px;
+  width:36px;
+
 }
 #download{
-  
+pading-left:0px;
 }
 .container{
-  margin-top: 50px;
+border:1px solid black;
+margin-top: 50px;
+height:500px;
+overflow:hidden;
 }
 .thumbnails img{
    width:90%;
    margin: 5%;
-
    height:150px;
    box-sizing: border-box;
 }
 .thumbnails img:hover{
- border :4px solid blue;
+ border :4px solid black;
 }
-.preview{
 
-}
 .preview img{
-
-
-  margin-left: 10%;
-
-  width:50%;
+  float:left;
+  width:60%;
   height:500px;
 
 
 }
 .thumbnails{
-  border: 4px solid white;
+
   padding:10px;;
-  float:left;
-  height:450px;
+  float:right;
+  height:500px;
   width:30%;
   overflow-y: scroll;
 
 }
 .button{
   color: white;
-  background-color: black;
-}
-@media (min-width: 400px) and (max-width: 800px)
-{
-		.p1,.p1,.p1{
-			float:left;
-			width:50%;
+  background-color: #808080;
 
-		}
-	}
+}
+.button:hover{
+background-color: black;}
+#home:hover{
+  background-color:gray;
+  height:20px;
+
+}
+#about:hover{
+  background-color:gray;
+  height:20px;
+
+}
+#hello:hover{
+  background-color: gray;
+  height:20px;
+}
